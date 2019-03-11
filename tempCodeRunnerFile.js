@@ -1,2 +1,4 @@
-    let arro = ['apple.jpg','orange.png'];
-    console.log(arro[1]);
+function showFirstMessage(text){
+	alert(text);
+}
+showFirstMessage("Hello World!");

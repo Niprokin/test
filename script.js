@@ -1,4 +1,6 @@
 'use strict'	
-let arro = ['apple.jpg','orange.png'];
-console.log(arro[0]);
+function showFirstMessage(text){
+	alert(text);
+}
+showFirstMessage("Hello World!");
 
