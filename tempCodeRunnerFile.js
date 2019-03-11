@@ -1,4 +1,8 @@
-function showFirstMessage(text){
-	alert(text);
+function learnJS(lang, callback){
+    console.log("Я учю " + lang);
+    callback();
 }
-showFirstMessage("Hello World!");
+function done(){
+    console.log("Я прошел 3й урок");
+}
+learnJS("javaScript", done);
